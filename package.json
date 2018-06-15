@@ -1,27 +1,23 @@
 {
   "name": "gitbook-plugin-chapter-fold",
   "version": "1.0.0",
-  "description": "This is the fold plugin",
+  "description": "This is the fold plugin, extended from the expandable chapter plugin.",
   "main": "index.js",
   "engines":{
     "gitbook": ">1.0.0"
   },
-  "gitbook": {
-    "properties": {
-        "myConfigKey": {
-            "type": "string",
-            "default": "it's the default value",
-            "description": "It defines my awesome config!"
-        }
-    }
-},
   "author": "Colin",
-  "main": "index.js",
   "bugs": {
-    "url": "https://github.com/chrisjake/gitbook-plugin-expandable-chapters-small/issues"
+    "url": "https://github.com/ColinCollins/gitbook-plugin-chapter-fold/issues"
   },
+  "raw": "gitbook-plugin-chapter-fold",
   "dependencies": {},
-  "description": "Expandable chapters for convenient navigation within a gitbook",
   "devDependencies": {},
-  "directories": {}
+  "directories": {},
+  "homepage": "https://github.com/ColinCollins/gitbook-plugin-chapter-fold",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ColinCollins/gitbook-plugin-chapter-fold.git"
+  }
 }
