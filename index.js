@@ -3,10 +3,10 @@ module.exports = {
     website: {
         assets: "./book",
         js: [
-            "chapters-fold.js"
+            "chapter-fold.js"
         ],
         css: [
-            "chapters-fold.css"
+            "chapter-fold.css"
         ]
     }
 };
